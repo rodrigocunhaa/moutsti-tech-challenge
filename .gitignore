@@ -1,0 +1,18 @@
+node_modules/
+
+# Cypress artifacts
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Local environment and temporary files
+.env
+.env.*
+!.env.example
+tmp/
+*.log
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
